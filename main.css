@@ -59,3 +59,8 @@ body {
   font-size: 1.25rem;
   line-height: 2;
 }
+
+.navbar.scrolled {
+  background-color: #dec0de;
+  transition: 1s;
+}
