@@ -20,3 +20,25 @@ body {
 #mainNavBar .nav-link:focus {
   color: #ea1c2c;
 }
+
+#headingGroup span {
+  color: red;
+}
+
+#headingGroup h1 {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+@media (max-width: 1375px) {
+  #headingGroup h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1035px) {
+  #headingGroup h1 {
+    font-size: 2.5rem;
+  }
+}
